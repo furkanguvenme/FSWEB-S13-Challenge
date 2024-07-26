@@ -1,16 +1,16 @@
 package org.example.enums;
 
 public enum Plan {
-    BASIC("Mourinho", 10.5);
+    BASIC("Mourinho", 10);
     private String name;
-    private double price;
+    private int price;
 
-    Plan(String name, double price) {
+    Plan(String name, int price) {
         this.name = name;
         this.price = price;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 

@@ -58,7 +58,7 @@ public class CompanyTest {
     @Test
     public void testPlanInstanceTypes() throws NoSuchFieldException {
         assertThat(healthplan.getPlan().getName(), instanceOf(String.class));
-        assertThat(healthplan.getPlan().getPrice(), instanceOf(Double.class));
+        assertThat(healthplan.getPlan().getPrice(), instanceOf(Integer.class));
     }
 
     @DisplayName("Employee sınıf değişkenleri doğru access modifier a sahip mi ?")
